@@ -1,0 +1,15 @@
+#body {
+  box-sizing: border-box;
+}
+#body #header {
+  background: red;
+}
+#body .error {
+  color: black;
+}
+#body a {
+  text-decoration: none;
+}
+#body a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */

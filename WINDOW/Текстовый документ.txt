@@ -1,0 +1,46 @@
+дополнительные библиотеки:
+
+*jQuery
+
+_______________________________________________________________________________
+1. imask - vanilla javascript input mask - формирование маски для input
+https://github.com/uNmAnNeR/imaskjs
+например: 
+
+import IMask from "imask";
+
+function createIMask() {
+  let mascFormTel = IMask(document.querySelector("<name>"), {
+    mask: "+{7}(000)000-00-00",
+  });
+
+_______________________________________________________________________________
+  2. Tiny Slider 2 - слайдер
+  https://github.com/ganlanyuan/tiny-slider
+
+  import { tns } from "./node_modules/tiny-slider/src/tiny-slider";
+
+    let slider = tns({
+    container: '<name>',
+    items: 3,
+    slideBy: 'page',
+    autoplay: true
+  });
+
+  <div class="<name>">
+  <div></div>
+  <div></div>
+  </div>
+
+___________________________________________________________________________________
+3.    https://kingsora.github.io/OverlayScrollbars/#!overview
+https://alvarotrigo.com/fullPage/#page2
+https://www.typeitjs.com/
+https://simpleparallax.com/
+https://darkmodejs.learn.uno/
+https://momentjs.com/
+https://vocajs.com/
+https://github.com/michalsnik/aos
+https://lodash.com/
+https://swiperjs.com/
+https://axios-http.com/

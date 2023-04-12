@@ -1,0 +1,23 @@
+{
+	"curly" : true,
+	"eqeqeq" : true,
+	"immed ": true,
+	"newcap" : true, 
+	"asi" : false, 
+	"camelcase" : true, 
+	"undef" : true, 
+	"quotmark" : true, 
+	"maxlen" : 120, 
+	"trailing" : true,
+	"strict" : true, 
+	"browser" : true, 
+	"devel" : true, 
+	"jquery" : true, 
+	"esversion" : 8,
+	"node" : true,
+	"indent": 4,
+	"bitwise": true, 
+	"nonew": true, 
+	"regexp": true 
+}
+

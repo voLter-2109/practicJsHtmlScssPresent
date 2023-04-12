@@ -1,0 +1,10 @@
+
+npm init
+npm i
+
+
+1. gulp dev
+
+2.  cd src
+    cd data
+    json-server --watch db.json --port 3001

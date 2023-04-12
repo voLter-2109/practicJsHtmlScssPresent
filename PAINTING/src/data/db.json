@@ -1,0 +1,87 @@
+{
+  "text": [
+    {
+      "phone": "+7 (911) 154 57 58",
+      "email": "",
+      "message": "вопросов нет",
+      "loadFile": "none",
+      "id": 1
+    },
+    {
+      "name": "Алексей",
+      "phone": "+7 (911) 154 57 58",
+      "email": "123@mail.ru",
+      "message": "вопросов нет",
+      "loadFile": "none",
+      "id": 2
+    }
+  ],
+  "img": [
+    {
+      "name": "Алексей",
+      "phone": "+7 (911) 154 57 58",
+      "email": "123@mail.ru",
+      "message": "вопросов нет",
+      "loadFile": {
+        "name": "Ф;dg;jdg;ah.jpg",
+        "type": "image/jpeg"
+      },
+      "id": 1
+    },
+    {
+      "name": "123",
+      "phone": "+7 (123",
+      "email": "123",
+      "message": "вопросов нет",
+      "loadFile": {
+        "name": "Ф;dg;jdg;ah.jpg",
+        "type": "image/jpeg"
+      },
+      "id": 2
+    },
+    {
+      "name": "123",
+      "phone": "+7 (123",
+      "email": "",
+      "message": "вопросов нет",
+      "loadFile": {
+        "name": "Ф;dg;jdg;ah.jpg",
+        "type": "image/jpeg"
+      },
+      "id": 3
+    },
+    {
+      "name": "123",
+      "phone": "+7 (12",
+      "email": "",
+      "message": "",
+      "loadFile": {
+        "name": "Ф;dg;jdg;ah.jpg",
+        "type": "image/jpeg"
+      },
+      "id": 4
+    }
+  ],
+  "styles": [
+    {
+      "src": "./img/styles-5.jpg",
+      "title": "Пастелью",
+      "link": "#pastel"
+    },
+    {
+      "src": "./img/styles-6.jpg",
+      "title": "Поп-арт",
+      "link": "#popart"
+    },
+    {
+      "src": "./img/styles-7.png",
+      "title": "Фотомозаика",
+      "link": "#mozaika"
+    },
+    {
+      "src": "./img/styles-8.jpg",
+      "title": "Шарж",
+      "link": "#sharj"
+    }
+  ]
+}

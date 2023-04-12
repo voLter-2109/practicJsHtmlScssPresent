@@ -1,0 +1,88 @@
+дополнительные библиотеки:
+
+*jQuery
+import $ from "jquery";
+
+* сайт с различными элементами
+https://tailwind-elements.com/docs/standard/components/accordion/
+*
+_______________________________________________________________________________
+1. imask - vanilla javascript input mask - формирование маски для input
+https://github.com/uNmAnNeR/imaskjs
+например: 
+
+import IMask from "imask";
+
+function createIMask() {
+  let mascFormTel = IMask(document.querySelector("<name>"), {
+    mask: "+{7}(000)000-00-00",
+  });
+
+_______________________________________________________________________________
+  2. Tiny Slider 2 - слайдер
+  https://github.com/ganlanyuan/tiny-slider
+
+  import { tns } from "./node_modules/tiny-slider/src/tiny-slider";
+
+    let slider = tns({
+    container: '<name>',
+    items: 3,
+    slideBy: 'page',
+    autoplay: true
+  });
+
+  <div class="<name>">
+  <div></div>
+  <div></div>
+  </div>
+
+__________________________________________________________________________________
+3. Smooth Scrollbar  
+https://idiotwu.github.io/smooth-scrollbar/
+
+import Scrollbar from "smooth-scrollbar";
+
+Scrollbar.init(document.querySelector(".scroll-content"), {
+  damping: 0.2,
+  alwaysShowTracks: false
+});
+
+ПРИМЕР:
+<div class="scroll-content">
+your contents here...
+</div>
+    <div class="scrollbar-track scrollbar-track-x">
+        <div class="scrollbar-thumb scrollbar-thumb-x"></div>
+    </div>
+    <div class="scrollbar-track scrollbar-track-y">
+        <div class="scrollbar-thumb scrollbar-thumb-y"></div>
+    </div>
+
+    .scroll-content {
+      width: 100%;
+      height: 100vh;
+    }
+
+    .content{
+      height: 300vh;
+      width: 100%;
+    }
+_________________________________________________________________________________
+написать свою библиотеку
+навигация меню 
+булетц поинт
+активное окно
+класс слайдера(бесконечная прокрутка, автоплей)
+
+https://alvarotrigo.com/pagePiling/#page2
+
+
+https://www.typeitjs.com/
+https://simpleparallax.com/
+https://darkmodejs.learn.uno/
+https://momentjs.com/
+https://vocajs.com/
+https://github.com/michalsnik/aos
+https://lodash.com/
+https://swiperjs.com/
+https://axios-http.com/
